@@ -58,7 +58,6 @@ int main(int argc, char *argv[]) {
         find(".", argv[2]);
         exit(0);
     } else {
-        printf("path: %s\n", argv[2]);
         find(argv[1], argv[2]);
         exit(0);
     }
